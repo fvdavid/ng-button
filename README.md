@@ -1,11 +1,11 @@
 ## Button Component
 
-This button component is built with Angular 20 and styled using Tailwind CSS 4. The typography uses the Source Sans Pro font family for a clean, modern look.
+A reusable and customizable button built as a standalone component in Angular 20, styled with Tailwind CSS 4 and featuring the Source Sans Pro font for a modern, clean aesthetic.
 
 Button States
 
-1. Default
-   The base state of the button with standard styling, providing a clear and intuitive call to action.
+1. Default (Default Button Component)
+   The base standalone button component with predefined styling, ensuring consistency across the application.
 
 2. Hover
    When a user hovers over the button, the background color changes to provide visual feedback, enhancing interactivity.

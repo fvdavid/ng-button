@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { DefaultButton } from './component/default-button/default-button';
 
 @Component({
   selector: 'app-root',
-  imports: [MatProgressSpinnerModule, MatIconModule],
+  imports: [MatProgressSpinnerModule, MatIconModule, DefaultButton],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
