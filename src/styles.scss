@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: "Source Sans Pro";
-  /* font-style: normal;
-  font-weight: 600; */
+  font-style: normal;
+  font-weight: 600;
   /* The path is relative to the root of the deployed app */
   src: url("./assets/fonts/source-sans-pro/SourceSansPro-Regular.otf")
     format("otf");
@@ -13,5 +13,5 @@
 /* Apply the font to the entire application */
 body {
   margin: 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
 }
